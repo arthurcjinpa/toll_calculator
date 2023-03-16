@@ -1,0 +1,45 @@
+{
+  "locations": {
+    "1": {
+      "name": where is exception?
+      "lat": 43.336962,
+      "lng": -79.830394,
+      "routes": [
+        {
+          "toId": 2
+          "distance": 6.062
+        }
+      ]
+    },
+    "2": {
+      "name": "Dundas Street",
+      "lat": 43.383554,
+      "lng": -79.833478,
+      "routes": [
+        {
+          "toId": 3,
+          "distance": 3.847
+        },
+        {
+          "toId": 1,
+          "distance": 6.062
+        }
+      ]
+    },
+    "3": {
+      "name": "Appleby Line",
+      "lat": 43.415415,
+      "lng": -79.820271,
+      "routes": [
+        {
+          "toId": 4,
+          "distance": 4.153
+        },
+        {
+          "toId": 2,
+          "distance": 3.847
+        }
+      ]
+    }
+  }
+}

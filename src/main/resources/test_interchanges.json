@@ -1,0 +1,22 @@
+{
+  "locations": {
+    "1": {
+      "name": "QEW",
+      "lat": 43.336962,
+      "lng": -79.830394,
+      "newField": "test",
+      "routes": [
+        {
+          "toId": 2,
+          "distance": 6.062
+        }
+      ]
+    },
+    "2": {
+      "name": "Dundas Street",
+      "lat": 43.383554,
+      "lng": -79.833478,
+      "routes": []
+    }
+  }
+}

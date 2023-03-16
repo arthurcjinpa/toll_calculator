@@ -1,0 +1,684 @@
+{
+  "locations": {
+    "1": {
+      "name": "QEW",
+      "lat": 43.336962,
+      "lng": -79.830394,
+      "routes": [
+        {
+          "toId": 2,
+          "distance": 6.062
+        }
+      ]
+    },
+    "2": {
+      "name": "Dundas Street",
+      "lat": 43.383554,
+      "lng": -79.833478,
+      "routes": [
+        {
+          "toId": 3,
+          "distance": 3.847
+        },
+        {
+          "toId": 1,
+          "distance": 6.062
+        }
+      ]
+    },
+    "3": {
+      "name": "Appleby Line",
+      "lat": 43.415415,
+      "lng": -79.820271,
+      "routes": [
+        {
+          "toId": 4,
+          "distance": 4.153
+        },
+        {
+          "toId": 2,
+          "distance": 3.847
+        }
+      ]
+    },
+    "4": {
+      "name": "Bronte Road",
+      "lat": 43.445323,
+      "lng": -79.789933,
+      "routes": [
+        {
+          "toId": 5,
+          "distance": 4.927
+        },
+        {
+          "toId": 3,
+          "distance": 4.153
+        }
+      ]
+    },
+    "5": {
+      "name": "Neyagawa Blvd.",
+      "lat": 43.484361,
+      "lng": -79.766037,
+      "routes": [
+        {
+          "toId": 6,
+          "distance": 3.227
+        },
+        {
+          "toId": 4,
+          "distance": 4.927
+        }
+      ]
+    },
+    "6": {
+      "name": "Trafalgar Road",
+      "lat": 43.508828,
+      "lng": -79.747886,
+      "routes": [
+        {
+          "toId": 7,
+          "distance": 2.917
+        },
+        {
+          "toId": 5,
+          "distance": 3.227
+        }
+      ]
+    },
+    "7": {
+      "name": "Highway 403",
+      "lat": 43.527953,
+      "lng": -79.725364,
+      "routes": [
+        {
+          "toId": 8,
+          "distance": 4.299
+        },
+        {
+          "toId": 6,
+          "distance": 2.917
+        }
+      ]
+    },
+    "8": {
+      "name": "Britannia Road",
+      "lat": 43.552251,
+      "lng": -79.762783,
+      "routes": [
+        {
+          "toId": 9,
+          "distance": 3.073
+        },
+        {
+          "toId": 7,
+          "distance": 4.299
+        }
+      ]
+    },
+    "9": {
+      "name": "Derry Road",
+      "lat": 43.571614,
+      "lng": -79.789898,
+      "routes": [
+        {
+          "toId": 10,
+          "distance": 2.507
+        },
+        {
+          "toId": 8,
+          "distance": 3.073
+        }
+      ]
+    },
+    "10": {
+      "name": "Highway 401",
+      "lat": 43.588201,
+      "lng": -79.810358,
+      "routes": [
+        {
+          "toId": 11,
+          "distance": 5.291
+        },
+        {
+          "toId": 9,
+          "distance": 2.507
+        }
+      ]
+    },
+    "11": {
+      "name": "Mississauga Road",
+      "lat": 43.617749,
+      "lng": -79.762301,
+      "routes": [
+        {
+          "toId": 12,
+          "distance": 3.239
+        },
+        {
+          "toId": 10,
+          "distance": 5.291
+        }
+      ]
+    },
+    "12": {
+      "name": "Mavis Road",
+      "lat": 43.641017,
+      "lng": -79.736903,
+      "routes": [
+        {
+          "toId": 13,
+          "distance": 2.31
+        },
+        {
+          "toId": 11,
+          "distance": 3.239
+        }
+      ]
+    },
+    "13": {
+      "name": "Hurontario",
+      "lat": 43.65363670486258,
+      "lng": -79.71656084060669,
+      "routes": [
+        {
+          "toId": 14,
+          "distance": 2.147
+        },
+        {
+          "toId": 12,
+          "distance": 2.31
+        }
+      ]
+    },
+    "14": {
+      "name": "Highway 410",
+      "lat": 43.668861,
+      "lng": -79.700151,
+      "routes": [
+        {
+          "toId": 15,
+          "distance": 2.223
+        },
+        {
+          "toId": 13,
+          "distance": 2.147
+        }
+      ]
+    },
+    "15": {
+      "name": "Dixie Road",
+      "lat": 43.687616,
+      "lng": -79.691088,
+      "routes": [
+        {
+          "toId": 16,
+          "distance": 1.481,
+          "exit": false
+        },
+        {
+          "toId": 14,
+          "distance": 2.223
+        }
+      ]
+    },
+    "16": {
+      "name": "Bramalea Road",
+      "lat": 43.699758,
+      "lng": -79.683559,
+      "routes": [
+        {
+          "toId": 17,
+          "distance": 3.178
+        },
+        {
+          "toId": 15,
+          "distance": 1.481,
+          "enter": false
+        }
+      ]
+    },
+    "17": {
+      "name": "Airport Road",
+      "lat": 43.726981,
+      "lng": -79.673517,
+      "routes": [
+        {
+          "toId": 18,
+          "distance": 1.386,
+          "exit": false
+        },
+        {
+          "toId": 16,
+          "distance": 3.178
+        }
+      ]
+    },
+    "18": {
+      "name": "Goreway Drive",
+      "lat": 43.735763,
+      "lng": -79.661533,
+      "routes": [
+        {
+          "toId": 19,
+          "distance": 3.235
+        },
+        {
+          "toId": 17,
+          "distance": 1.386,
+          "enter": false
+        }
+      ]
+    },
+    "19": {
+      "name": "Highway 427",
+      "lat": 43.754636,
+      "lng": -79.631594,
+      "routes": [
+        {
+          "toId": 20,
+          "distance": 1.324
+        },
+        {
+          "toId": 18,
+          "distance": 3.235
+        }
+      ]
+    },
+    "20": {
+      "name": "Highway 27",
+      "lat": 43.758317,
+      "lng": -79.615983,
+      "routes": [
+        {
+          "toId": 22,
+          "distance": 4.061
+        },
+        {
+          "toId": 19,
+          "distance": 1.324
+        }
+      ]
+    },
+    "22": {
+      "name": "Pine Valley Drive",
+      "lat": 43.773964,
+      "lng": -79.570525,
+      "routes": [
+        {
+          "toId": 23,
+          "distance": 2.17
+        },
+        {
+          "toId": 20,
+          "distance": 4.061
+        }
+      ]
+    },
+    "23": {
+      "name": "Weston Road",
+      "lat": 43.781354,
+      "lng": -79.545683,
+      "routes": [
+        {
+          "toId": 24,
+          "distance": 0.691,
+          "enter": false
+        },
+        {
+          "toId": 22,
+          "distance": 2.17
+        }
+      ]
+    },
+    "24": {
+      "name": "Highway 400",
+      "lat": 43.783082,
+      "lng": -79.53736,
+      "routes": [
+        {
+          "toId": 25,
+          "distance": 1.182
+        },
+        {
+          "toId": 23,
+          "distance": 0.691,
+          "exit": false
+        }
+      ]
+    },
+    "25": {
+      "name": "Jane Street",
+      "lat": 43.786068,
+      "lng": -79.523377,
+      "routes": [
+        {
+          "toId": 26,
+          "distance": 2.199
+        },
+        {
+          "toId": 24,
+          "distance": 1.182
+        }
+      ]
+    },
+    "26": {
+      "name": "Keele Street",
+      "lat": 43.792417,
+      "lng": -79.497465,
+      "routes": [
+        {
+          "toId": 28,
+          "distance": 3.521
+        },
+        {
+          "toId": 25,
+          "distance": 2.199
+        }
+      ]
+    },
+    "28": {
+      "name": "Dufferin Street",
+      "lat": 43.817912,
+      "lng": -79.477101,
+      "routes": [
+        {
+          "toId": 29,
+          "distance": 2.194
+        },
+        {
+          "toId": 26,
+          "distance": 3.521
+        }
+      ]
+    },
+    "29": {
+      "name": "Bathurst Street",
+      "lat": 43.82754,
+      "lng": -79.45393,
+      "routes": [
+        {
+          "toId": 30,
+          "distance": 2.172
+        },
+        {
+          "toId": 28,
+          "distance": 2.194
+        }
+      ]
+    },
+    "30": {
+      "name": "Yonge Street",
+      "lat": 43.834275,
+      "lng": -79.428642,
+      "routes": [
+        {
+          "toId": 31,
+          "distance": 1.93
+        },
+        {
+          "toId": 29,
+          "distance": 2.172
+        }
+      ]
+    },
+    "31": {
+      "name": "Bayview Avenue",
+      "lat": 43.83818,
+      "lng": -79.406052,
+      "routes": [
+        {
+          "toId": 32,
+          "distance": 2.076
+        },
+        {
+          "toId": 30,
+          "distance": 1.93
+        }
+      ]
+    },
+    "32": {
+      "name": "Leslie Street",
+      "lat": 43.837158,
+      "lng": -79.38048,
+      "routes": [
+        {
+          "toId": 33,
+          "distance": 0.997,
+          "enter": false
+        },
+        {
+          "toId": 31,
+          "distance": 2.076
+        }
+      ]
+    },
+    "33": {
+      "name": "Highway 404",
+      "lat": 43.839019,
+      "lng": -79.368281,
+      "routes": [
+        {
+          "toId": 34,
+          "distance": 1.029
+        },
+        {
+          "toId": 32,
+          "distance": 0.997,
+          "exit": false
+        }
+      ]
+    },
+    "34": {
+      "name": "Woodbine Avenue",
+      "lat": 43.840981,
+      "lng": -79.355793,
+      "routes": [
+        {
+          "toId": 35,
+          "distance": 2.078
+        },
+        {
+          "toId": 33,
+          "distance": 1.029
+        }
+      ]
+    },
+    "35": {
+      "name": "Warden Avenue",
+      "lat": 43.845134,
+      "lng": -79.33061,
+      "routes": [
+        {
+          "toId": 36,
+          "distance": 1.93
+        },
+        {
+          "toId": 34,
+          "distance": 2.078
+        }
+      ]
+    },
+    "36": {
+      "name": "Kennedy Road",
+      "lat": 43.850276,
+      "lng": -79.307682,
+      "routes": [
+        {
+          "toId": 37,
+          "distance": 2.215
+        },
+        {
+          "toId": 35,
+          "distance": 1.93
+        }
+      ]
+    },
+    "37": {
+      "name": "McCowan Road",
+      "lat": 43.856272,
+      "lng": -79.281407,
+      "routes": [
+        {
+          "toId": 38,
+          "distance": 2.103
+        },
+        {
+          "toId": 36,
+          "distance": 2.215
+        }
+      ]
+    },
+    "38": {
+      "name": "Markham Road",
+      "lat": 43.863426,
+      "lng": -79.257273,
+      "routes": [
+        {
+          "toId": 39,
+          "distance": 2.074
+        },
+        {
+          "toId": 37,
+          "distance": 2.103
+        }
+      ]
+    },
+    "39": {
+      "name": "Ninth Line",
+      "lat": 43.870416,
+      "lng": -79.233417,
+      "routes": [
+        {
+          "toId": 40,
+          "distance": 1.686
+        },
+        {
+          "toId": 38,
+          "distance": 2.074
+        }
+      ]
+    },
+    "40": {
+      "name": "Donald Cousens Pkwy",
+      "lat": 43.874745,
+      "lng": -79.213274,
+      "routes": [
+        {
+          "toId": 41,
+          "distance": 2.976
+        },
+        {
+          "toId": 39,
+          "distance": 1.686
+        }
+      ]
+    },
+    "41": {
+      "name": "York Durham Line",
+      "lat": 43.89095,
+      "lng": -79.185926,
+      "routes": [
+        {
+          "toId": 42,
+          "distance": 7.854,
+          "exit": false
+        },
+        {
+          "toId": 40,
+          "distance": 2.976
+        }
+      ]
+    },
+    "42": {
+      "name": "Sideline 26",
+      "lat": 43.905468238681884,
+      "lng": -79.14263248443604,
+      "devcomment": "Sideline 26, 22 are just placeholders for eventual interchanges.  Distances between need to  be fixed when these are built!",
+      "routes": [
+        {
+          "toId": 43,
+          "distance": 0,
+          "enter": false,
+          "exit": false
+        },
+        {
+          "toId": 41,
+          "distance": 0,
+          "enter": false
+        }
+      ]
+    },
+    "43": {
+      "name": "Sideline 22",
+      "lat": 43.909797,
+      "lng": -79.124179,
+      "devcomment": "Sideline 26, 22 are just placeholders for eventual interchanges.  Distances between need to  be fixed when these are built!",
+      "routes": [
+        {
+          "toId": 44,
+          "distance": 0,
+          "enter": false
+        },
+        {
+          "toId": 42,
+          "distance": 0,
+          "enter": false,
+          "exit": false
+        }
+      ]
+    },
+    "44": {
+      "name": "Brock Road",
+      "lat": 43.916578,
+      "lng": -79.100486,
+      "routes": [
+        {
+          "toId": 45,
+          "distance": 7.313,
+          "startDate": "2013"
+        },
+        {
+          "toId": 43,
+          "distance": 7.854,
+          "exit": false,
+          "startDate": "1999-02"
+        }
+      ]
+    },
+    "45": {
+      "name": "Westney Road",
+      "lat": 43.937802,
+      "lng": -79.070252,
+      "routes": [
+        {
+          "toId": 46,
+          "distance": 0,
+          "startDate": "2013"
+        },
+        {
+          "toId": 44,
+          "distance": 0,
+          "startDate": "2013"
+        }
+      ]
+    },
+    "46": {
+      "name": "Salem Road",
+      "lat": 43.942808,
+      "lng": -79.050339,
+      "routes": [
+        {
+          "toId": 47,
+          "distance": 0,
+          "startDate": "2013"
+        },
+        {
+          "toId": 45,
+          "distance": 0,
+          "startDate": "2013"
+        }
+      ]
+    }
+  }
+}
