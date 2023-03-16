@@ -7,5 +7,5 @@ import java.util.List;
 
 @Service
 public interface JsonProcessingService {
-    List<LocationDTO> convertAndSaveJsonData();
+  List<LocationDTO> convertAndSaveJsonData();
 }

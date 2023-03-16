@@ -10,8 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
- * For our convenience we have put the necessary annotations and dependencies
- * for tests in a separate class
+ * For our convenience we have put the necessary annotations and dependencies for tests in a
+ * separate class
  *
  * @author Arthur Babaev
  */
@@ -19,7 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @Ignore
 public class BaseTest {
-    @Autowired protected LocationDeserializer locationDeserializer;
-    @Autowired protected TripCalculatorService tripCalculatorService;
-    @Autowired protected JsonProcessingService jsonProcessingService;
+  @Autowired protected LocationDeserializer locationDeserializer;
+  @Autowired protected TripCalculatorService tripCalculatorService;
+  @Autowired protected JsonProcessingService jsonProcessingService;
 }

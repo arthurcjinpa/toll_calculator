@@ -11,9 +11,9 @@ import java.util.List;
 @AllArgsConstructor
 @JsonDeserialize(using = LocationDeserializer.class)
 public class LocationDTO {
-    private Long id;
-    private String name;
-    private double lat;
-    private double lng;
-    private List<RouteDTO> routes;
+  private Long id;
+  private String name;
+  private double lat;
+  private double lng;
+  private List<RouteDTO> routes;
 }

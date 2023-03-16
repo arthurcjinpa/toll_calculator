@@ -6,5 +6,5 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface TripCalculatorService {
-    CalculationResultDTO calculateTrip(Pair<String, String> locations);
+  CalculationResultDTO calculateTrip(Pair<String, String> locations);
 }

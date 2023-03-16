@@ -6,9 +6,9 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class RouteDTO {
-    private Long toId;
-    private double distance;
-    private String startDate;
-    private boolean enter;
-    private boolean exit;
+  private Long toId;
+  private double distance;
+  private String startDate;
+  private boolean enter;
+  private boolean exit;
 }

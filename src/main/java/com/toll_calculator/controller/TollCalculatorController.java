@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * In this REST controller with only one method "calculateTripDetails"
- * we get a CalculationResultDTO with the fields we need
+ * In this REST controller with only one method "calculateTripDetails" we get a CalculationResultDTO
+ * with the fields we need
  *
  * @author Arthur Babaev
  */
@@ -18,17 +18,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class TollCalculatorController {
 
-    private final TripCalculatorService tripCalculatorService;
+  private final TripCalculatorService tripCalculatorService;
 
-    /**
-     * This is GET request with:
-     * @param firstLocation name of the first location from json in String
-     * @param secondLocation name of the second location from json in String
-     * @return CalculationResultDTO with two fields: "distance" and "cost"
-     */
-    @GetMapping("/calculate")
-    public CalculationResultDTO calculateTripDetails(@RequestParam String firstLocation,
-                                                     @RequestParam String secondLocation) {
-        return tripCalculatorService.calculateTrip(new Pair<>(firstLocation, secondLocation));
-    }
+  /**
+   * This is GET request with:
+   *
+   * @param firstLocation name of the first location from json in String
+   * @param secondLocation name of the second location from json in String
+   * @return CalculationResultDTO with two fields: "distance" and "cost"
+   */
+  @GetMapping("/calculate")
+  public CalculationResultDTO calculateTripDetails(@RequestParam String firstLocation,
+                                                   @RequestParam String secondLocation) {
+    return tripCalculatorService.calculateTrip(new Pair<>(firstLocation, secondLocation));
+  }
 }
