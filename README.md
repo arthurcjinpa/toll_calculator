@@ -3,6 +3,8 @@
 
 In this assessment, I have tried to implement a trip toll calculator using Java and Spring framework.
 
+(Also please take into account that for this assignment I was asked to make extensive comments in the code. But I personally agree with uncle Bob and believe that Instead of relying heavily on comments, it's usually better to be focused on writing code that is both correct and easily understandable)
+
 
 
 ## How to run Locally
